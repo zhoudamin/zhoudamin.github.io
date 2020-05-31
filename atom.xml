@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Notes</title>
+  
+  <subtitle>Learn Practice Summary</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://zhoudamin.github.io/"/>
+  <updated>2020-05-13T14:12:00.308Z</updated>
+  <id>http://zhoudamin.github.io/</id>
+  
+  <author>
+    <name>Damin ZHOU</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>findbugs clean</title>
+    <link href="http://zhoudamin.github.io/2020/05/13/findbugs-clean/"/>
+    <id>http://zhoudamin.github.io/2020/05/13/findbugs-clean/</id>
+    <published>2020-05-13T13:57:43.000Z</published>
+    <updated>2020-05-13T14:12:00.308Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;收集的findbugs清理指导！&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="开发者手册" scheme="http://zhoudamin.github.io/categories/%E5%BC%80%E5%8F%91%E8%80%85%E6%89%8B%E5%86%8C/"/>
+    
+    
+      <category term="findbugs" scheme="http://zhoudamin.github.io/tags/findbugs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>刷题总结</title>
+    <link href="http://zhoudamin.github.io/2020/05/03/shua-ti-zong-jie/"/>
+    <id>http://zhoudamin.github.io/2020/05/03/shua-ti-zong-jie/</id>
+    <published>2020-05-03T08:57:23.000Z</published>
+    <updated>2020-05-03T09:19:11.612Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;刷题总结&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="算法与数学" scheme="http://zhoudamin.github.io/categories/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="总结" scheme="http://zhoudamin.github.io/tags/%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>最长回文子串</title>
+    <link href="http://zhoudamin.github.io/2020/05/02/zui-chang-hui-wen-zi-chuan/"/>
+    <id>http://zhoudamin.github.io/2020/05/02/zui-chang-hui-wen-zi-chuan/</id>
+    <published>2020-05-02T09:15:08.000Z</published>
+    <updated>2020-05-02T09:20:51.796Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;给定一个字符串 &lt;code&gt;s&lt;/code&gt;，找到 &lt;code&gt;s&lt;/code&gt; 中最长的回文子串。你可以假设&amp;nbsp;&lt;code&gt;s&lt;/code&gt; 的最大长度为 1000。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;示例 1：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;js&quot;&gt;输入: &quot;babad&quot;
+输出: &quot;bab&quot;
+注意: &quot;aba&quot; 也是一个有效答案。&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;示例 2：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;js&quot;&gt;输入: &quot;cbbd&quot;
+输出: &quot;bb&quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;div&gt;&lt;div&gt;Related Topics&lt;/div&gt;&lt;div&gt;&lt;li&gt;字符串&lt;/li&gt;&lt;li&gt;动态规划&lt;/li&gt;&lt;/div&gt;&lt;/div&gt;
+    
+    </summary>
+    
+    
+      <category term="算法与数学" scheme="http://zhoudamin.github.io/categories/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="leetcode" scheme="http://zhoudamin.github.io/tags/leetcode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>交换数字</title>
+    <link href="http://zhoudamin.github.io/2020/05/02/jiao-huan-shu-zi/"/>
+    <id>http://zhoudamin.github.io/2020/05/02/jiao-huan-shu-zi/</id>
+    <published>2020-05-02T02:31:06.000Z</published>
+    <updated>2020-05-02T02:33:12.288Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;编写一个函数，不用临时变量，直接交换&lt;code&gt;numbers = [a, b]&lt;/code&gt;中&lt;code&gt;a&lt;/code&gt;与&lt;code&gt;b&lt;/code&gt;的值。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;示例：&lt;/strong&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;strong&gt;输入:&lt;/strong&gt; numbers = [1,2]
+&lt;strong&gt;输出:&lt;/strong&gt; [2,1]
+&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;提示：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;numbers.length == 2&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;&lt;div&gt;Related Topics&lt;/div&gt;&lt;div&gt;&lt;li&gt;位运算&lt;/li&gt;&lt;li&gt;数学&lt;/li&gt;&lt;/div&gt;&lt;/div&gt;
+    
+    </summary>
+    
+    
+      <category term="算法与数学" scheme="http://zhoudamin.github.io/categories/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="leetcode" scheme="http://zhoudamin.github.io/tags/leetcode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>统计作战单位数</title>
+    <link href="http://zhoudamin.github.io/2020/05/01/tong-ji-zuo-zhan-dan-wei-shu/"/>
+    <id>http://zhoudamin.github.io/2020/05/01/tong-ji-zuo-zhan-dan-wei-shu/</id>
+    <published>2020-05-01T09:01:53.000Z</published>
+    <updated>2020-05-01T09:10:47.654Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&amp;nbsp;&lt;code&gt;n&lt;/code&gt; 名士兵站成一排。每个士兵都有一个 &lt;strong&gt;独一无二&lt;/strong&gt; 的评分 &lt;code&gt;rating&lt;/code&gt; 。&lt;/p&gt;
+
+&lt;p&gt;每 &lt;strong&gt;3&lt;/strong&gt; 个士兵可以组成一个作战单位，分组规则如下：&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;从队伍中选出下标分别为 &lt;code&gt;i&lt;/code&gt;、&lt;code&gt;j&lt;/code&gt;、&lt;code&gt;k&lt;/code&gt; 的 3 名士兵，他们的评分分别为 &lt;code&gt;rating[i]&lt;/code&gt;、&lt;code&gt;rating[j]&lt;/code&gt;、&lt;code&gt;rating[k]&lt;/code&gt;&lt;/li&gt;
+    &lt;li&gt;作战单位需满足： &lt;code&gt;rating[i] &amp;lt; rating[j] &amp;lt; rating[k]&lt;/code&gt; 或者 &lt;code&gt;rating[i] &amp;gt; rating[j] &amp;gt; rating[k]&lt;/code&gt; ，其中&amp;nbsp; &lt;code&gt;0&amp;nbsp;&amp;lt;= i &amp;lt;&amp;nbsp;j &amp;lt;&amp;nbsp;k &amp;lt;&amp;nbsp;n&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;请你返回按上述条件可以组建的作战单位数量。每个士兵都可以是多个作战单位的一部分。&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;示例 1：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;js&quot;&gt;输入：rating = [2,5,3,4,1]
+输出：3
+解释：我们可以组建三个作战单位 (2,3,4)、(5,4,1)、(5,3,1) 。&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;示例 2：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;js&quot;&gt;输入：rating = [2,1,3]
+输出：0
+解释：根据题目条件，我们无法组建作战单位。&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;示例 3：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;js&quot;&gt;输入：rating = [1,2,3,4]
+输出：4&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;提示：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;code&gt;n == rating.length&lt;/code&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;code&gt;1 &amp;lt;= n &amp;lt;= 200&lt;/code&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;code&gt;1 &amp;lt;= rating[i] &amp;lt;= 10^5&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;&lt;div&gt;Related Topics&lt;/div&gt;&lt;div&gt;&lt;li&gt;数组&lt;/li&gt;&lt;/div&gt;&lt;/div&gt;
+    
+    </summary>
+    
+    
+      <category term="算法与数学" scheme="http://zhoudamin.github.io/categories/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="leetcode" scheme="http://zhoudamin.github.io/tags/leetcode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>求1+2+…+n</title>
+    <link href="http://zhoudamin.github.io/2020/05/01/qiu-1-2-n/"/>
+    <id>http://zhoudamin.github.io/2020/05/01/qiu-1-2-n/</id>
+    <published>2020-05-01T04:01:25.000Z</published>
+    <updated>2020-05-01T04:04:00.077Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;求 &lt;code&gt;1+2+...+n&lt;/code&gt; ，要求不能使用乘除法、for、while、if、else、switch、case等关键字及条件判断语句（A?B:C）。&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;示例 1：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;js&quot;&gt;输入: n = 3
+输出: 6&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;示例 2：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;js&quot;&gt;输入: n = 9
+输出: 45&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;限制：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;code&gt;1 &amp;lt;= n&amp;nbsp;&amp;lt;= 10000&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="算法与数学" scheme="http://zhoudamin.github.io/categories/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="leetcode" scheme="http://zhoudamin.github.io/tags/leetcode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>删除链表的倒数第N个节点</title>
+    <link href="http://zhoudamin.github.io/2020/04/26/shan-chu-lian-biao-de-dao-shu-di-n-ge-jie-dian/"/>
+    <id>http://zhoudamin.github.io/2020/04/26/shan-chu-lian-biao-de-dao-shu-di-n-ge-jie-dian/</id>
+    <published>2020-04-26T14:46:26.000Z</published>
+    <updated>2020-04-26T14:53:14.606Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;给定一个链表，删除链表的倒数第&amp;nbsp;&lt;em&gt;n&amp;nbsp;&lt;/em&gt;个节点，并且返回链表的头结点。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;示例：&lt;/strong&gt;&lt;/p&gt;
+
+
+&lt;pre&gt;&lt;code class=&quot;js&quot;&gt;给定一个链表: 1-&amp;gt;2-&amp;gt;3-&amp;gt;4-&amp;gt;5, 和 n = 2.
+
+当删除了倒数第二个节点后，链表变为 1-&amp;gt;2-&amp;gt;3-&amp;gt;5.&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;说明：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;给定的 &lt;em&gt;n&lt;/em&gt;&amp;nbsp;保证是有效的。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;进阶：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;你能尝试使用一趟扫描实现吗？&lt;/p&gt;
+&lt;div&gt;&lt;div&gt;Related Topics&lt;/div&gt;&lt;div&gt;&lt;li&gt;链表&lt;/li&gt;&lt;li&gt;双指针&lt;/li&gt;&lt;/div&gt;&lt;/div&gt;
+    
+    </summary>
+    
+    
+      <category term="算法与数学" scheme="http://zhoudamin.github.io/categories/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="leetcode" scheme="http://zhoudamin.github.io/tags/leetcode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[面试题56 - I]数组中数字出现的次数</title>
+    <link href="http://zhoudamin.github.io/2020/04/25/mian-shi-ti-56-i-shu-zu-zhong-shu-zi-chu-xian-de-ci-shu/"/>
+    <id>http://zhoudamin.github.io/2020/04/25/mian-shi-ti-56-i-shu-zu-zhong-shu-zi-chu-xian-de-ci-shu/</id>
+    <published>2020-04-25T09:08:12.000Z</published>
+    <updated>2020-04-26T14:49:59.293Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一个整型数组 &lt;code&gt;nums&lt;/code&gt; 里除两个数字之外，其他数字都出现了两次。请写程序找出这两个只出现一次的数字。要求时间复杂度是O(n)，空间复杂度是O(1)。&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;示例 1：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;js&quot;&gt;输入：nums = [4,1,4,6]
+输出：[1,6] 或 [6,1]&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;示例 2：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;js&quot;&gt;输入：nums = [1,2,10,4,1,4,3,3]
+输出：[2,10] 或 [10,2]&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;限制：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;code&gt;2 &amp;lt;= nums &amp;lt;= 10000&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="算法与数学" scheme="http://zhoudamin.github.io/categories/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="leetcode" scheme="http://zhoudamin.github.io/tags/leetcode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Pow(x, n)</title>
+    <link href="http://zhoudamin.github.io/2020/04/25/pow-x-n/"/>
+    <id>http://zhoudamin.github.io/2020/04/25/pow-x-n/</id>
+    <published>2020-04-25T03:26:31.000Z</published>
+    <updated>2020-04-25T08:36:03.489Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;实现&amp;nbsp;&lt;a href=&quot;https://www.cplusplus.com/reference/valarray/pow/&quot; target=&quot;_blank&quot;&gt;pow(&lt;em&gt;x&lt;/em&gt;, &lt;em&gt;n&lt;/em&gt;)&lt;/a&gt;&amp;nbsp;，即计算 x 的 n 次幂函数。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;示例 1:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;输入:&lt;/strong&gt; 2.00000, 10&lt;br&gt;&lt;strong&gt;输出:&lt;/strong&gt; 1024.00000&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;示例&amp;nbsp;2:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;输入:&lt;/strong&gt; 2.10000, 3&lt;br&gt;&lt;strong&gt;输出:&lt;/strong&gt; 9.26100&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;示例&amp;nbsp;3:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;输入:&lt;/strong&gt; 2.00000, -2&lt;br&gt;&lt;strong&gt;输出:&lt;/strong&gt; 0.25000&lt;br&gt;&lt;strong&gt;解释:&lt;/strong&gt; 2&lt;sup&gt;-2&lt;/sup&gt; = 1/2&lt;sup&gt;2&lt;/sup&gt; = 1/4 = 0.25&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;说明:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;-100.0 &amp;lt;&amp;nbsp;&lt;em&gt;x&lt;/em&gt;&amp;nbsp;&amp;lt; 100.0&lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;n&lt;/em&gt;&amp;nbsp;是 32 位有符号整数，其数值范围是&amp;nbsp;[−2&lt;sup&gt;31&lt;/sup&gt;,&amp;nbsp;2&lt;sup&gt;31&amp;nbsp;&lt;/sup&gt;− 1] 。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;&lt;div&gt;Related Topics&lt;/div&gt;&lt;div&gt;&lt;li&gt;数学&lt;/li&gt;&lt;li&gt;二分查找&lt;/li&gt;&lt;/div&gt;&lt;/div&gt;
+    
+    </summary>
+    
+    
+      <category term="算法与数学" scheme="http://zhoudamin.github.io/categories/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="leetcode" scheme="http://zhoudamin.github.io/tags/leetcode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>搜索二维矩阵</title>
+    <link href="http://zhoudamin.github.io/2020/04/21/sou-suo-er-wei-ju-zhen/"/>
+    <id>http://zhoudamin.github.io/2020/04/21/sou-suo-er-wei-ju-zhen/</id>
+    <published>2020-04-20T16:49:29.000Z</published>
+    <updated>2020-04-25T09:19:48.859Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;编写一个高效的算法来判断&amp;nbsp;&lt;em&gt;m&lt;/em&gt; x &lt;em&gt;n&lt;/em&gt;&amp;nbsp;矩阵中，是否存在一个目标值。该矩阵具有如下特性：&lt;/p&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;每行中的整数从左到右按升序排列。&lt;/li&gt;
+    &lt;li&gt;每行的第一个整数大于前一行的最后一个整数。&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;示例&amp;nbsp;1:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;js&quot;&gt;输入:
+matrix = [
+  [1,   3,  5,  7],
+  [10, 11, 16, 20],
+  [23, 30, 34, 50]
+]
+target = 3
+输出: true&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;示例&amp;nbsp;2:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;输入:&lt;/strong&gt;&lt;br&gt;matrix = [&lt;br&gt;  [1,   3,  5,  7],&lt;br&gt;  [10, 11, 16, 20],&lt;br&gt;  [23, 30, 34, 50]&lt;br&gt;]&lt;br&gt;target = 13&lt;br&gt;&lt;strong&gt;输出:&lt;/strong&gt; false&lt;/p&gt;
+&lt;div&gt;&lt;div&gt;Related Topics&lt;/div&gt;&lt;div&gt;&lt;li&gt;数组&lt;/li&gt;&lt;li&gt;二分查找&lt;/li&gt;&lt;/div&gt;&lt;/div&gt;
+    
+    </summary>
+    
+    
+      <category term="算法与数学" scheme="http://zhoudamin.github.io/categories/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="leetcode" scheme="http://zhoudamin.github.io/tags/leetcode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>三数之和</title>
+    <link href="http://zhoudamin.github.io/2020/04/19/san-shu-zhi-he/"/>
+    <id>http://zhoudamin.github.io/2020/04/19/san-shu-zhi-he/</id>
+    <published>2020-04-19T09:53:06.000Z</published>
+    <updated>2020-04-25T08:45:13.289Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;给你一个包含 &lt;em&gt;n&lt;/em&gt; 个整数的数组&amp;nbsp;&lt;code&gt;nums&lt;/code&gt;，判断&amp;nbsp;&lt;code&gt;nums&lt;/code&gt;&amp;nbsp;中是否存在三个元素 &lt;em&gt;a，b，c ，&lt;/em&gt;使得&amp;nbsp;&lt;em&gt;a + b + c = &lt;/em&gt;0 ？请你找出所有满足条件且不重复的三元组。&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;注意：&lt;/strong&gt;答案中不可以包含重复的三元组。&lt;/p&gt;
+
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;示例：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;js&quot;&gt;给定数组 nums = [-1, 0, 1, 2, -1, -4]，
+
+满足要求的三元组集合为：
+[
+  [-1, 0, 1],
+  [-1, -1, 2]
+]&lt;/code&gt;&lt;/pre&gt;
+&lt;div&gt;&lt;div&gt;Related Topics&lt;/div&gt;&lt;div&gt;&lt;li&gt;数组&lt;/li&gt;&lt;li&gt;双指针&lt;/li&gt;&lt;/div&gt;&lt;/div&gt;
+    
+    </summary>
+    
+    
+      <category term="算法与数学" scheme="http://zhoudamin.github.io/categories/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="leetcode" scheme="http://zhoudamin.github.io/tags/leetcode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Apollo核心概念</title>
+    <link href="http://zhoudamin.github.io/2019/10/13/apollo-he-xin-gai-nian/"/>
+    <id>http://zhoudamin.github.io/2019/10/13/apollo-he-xin-gai-nian/</id>
+    <published>2019-10-13T04:03:55.000Z</published>
+    <updated>2019-10-13T04:09:45.876Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;携程框架Apollo概念介绍&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="开发者手册" scheme="http://zhoudamin.github.io/categories/%E5%BC%80%E5%8F%91%E8%80%85%E6%89%8B%E5%86%8C/"/>
+    
+    
+      <category term="Apollo" scheme="http://zhoudamin.github.io/tags/Apollo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ValidParentheses</title>
+    <link href="http://zhoudamin.github.io/2019/09/22/validparentheses/"/>
+    <id>http://zhoudamin.github.io/2019/09/22/validparentheses/</id>
+    <published>2019-09-22T08:25:18.000Z</published>
+    <updated>2019-09-22T08:29:47.399Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;给定一个只包括 ‘(‘，’)’，’{‘，’}’，’[‘，’]’ 的字符串，判断字符串是否有效。&lt;/p&gt;
+&lt;p&gt;有效字符串需满足：&lt;/p&gt;
+&lt;p&gt;左括号必须用相同类型的右括号闭合。&lt;br&gt;左括号必须以正确的顺序闭合。&lt;br&gt;注意空字符串可被认为是有效字符串。   &lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="算法与数学" scheme="http://zhoudamin.github.io/categories/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="算法" scheme="http://zhoudamin.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MissingRange</title>
+    <link href="http://zhoudamin.github.io/2019/09/08/missingrange/"/>
+    <id>http://zhoudamin.github.io/2019/09/08/missingrange/</id>
+    <published>2019-09-08T09:39:20.000Z</published>
+    <updated>2019-09-08T09:44:20.941Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;  Given a sorted integer array where the range of elements are [0, 99] inclusive, return its&lt;br&gt;  missing ranges.&lt;br&gt;  For example, given [0, 1, 3, 50, 75]&lt;br&gt;  return [“2”, “4-&amp;gt;49”, “51-&amp;gt;74”, “76-&amp;gt;99”]&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="算法与数学" scheme="http://zhoudamin.github.io/categories/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="算法" scheme="http://zhoudamin.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java知识增强</title>
+    <link href="http://zhoudamin.github.io/2019/08/07/java-zhi-shi-zeng-qiang/"/>
+    <id>http://zhoudamin.github.io/2019/08/07/java-zhi-shi-zeng-qiang/</id>
+    <published>2019-08-07T12:39:12.000Z</published>
+    <updated>2019-08-07T12:47:25.856Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;每日一考！&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="编程语言" scheme="http://zhoudamin.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    
+    
+      <category term="Java" scheme="http://zhoudamin.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第一次NZJ</title>
+    <link href="http://zhoudamin.github.io/2019/05/13/di-yi-ci-nzj/"/>
+    <id>http://zhoudamin.github.io/2019/05/13/di-yi-ci-nzj/</id>
+    <published>2019-05-13T15:45:04.000Z</published>
+    <updated>2019-07-28T02:20:42.833Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;入我厂第一次沟，以后还需更加努力。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="观点与感想" scheme="http://zhoudamin.github.io/categories/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/"/>
+    
+    
+      <category term="工作" scheme="http://zhoudamin.github.io/tags/%E5%B7%A5%E4%BD%9C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java知识点锦集</title>
+    <link href="http://zhoudamin.github.io/2019/04/13/java-zhi-shi-dian-jin-ji/"/>
+    <id>http://zhoudamin.github.io/2019/04/13/java-zhi-shi-dian-jin-ji/</id>
+    <published>2019-04-13T09:33:55.000Z</published>
+    <updated>2019-04-13T10:21:42.906Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;知识锦集&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="编程语言" scheme="http://zhoudamin.github.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    
+    
+      <category term="Java" scheme="http://zhoudamin.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>随想</title>
+    <link href="http://zhoudamin.github.io/2019/04/10/sui-xiang/"/>
+    <id>http://zhoudamin.github.io/2019/04/10/sui-xiang/</id>
+    <published>2019-04-10T14:21:54.000Z</published>
+    <updated>2019-04-10T15:06:22.105Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;又到了一年一度域名续费的日子了&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="观点与感想" scheme="http://zhoudamin.github.io/categories/%E8%A7%82%E7%82%B9%E4%B8%8E%E6%84%9F%E6%83%B3/"/>
+    
+    
+      <category term="随想" scheme="http://zhoudamin.github.io/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>人人懂AI</title>
+    <link href="http://zhoudamin.github.io/2019/03/03/ren-ren-dong-ai/"/>
+    <id>http://zhoudamin.github.io/2019/03/03/ren-ren-dong-ai/</id>
+    <published>2019-03-03T12:57:38.000Z</published>
+    <updated>2019-03-03T14:10:43.795Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;人人懂AI入门学习！&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="算法与数学" scheme="http://zhoudamin.github.io/categories/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="AI" scheme="http://zhoudamin.github.io/tags/AI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>shell脚本学习与演练</title>
+    <link href="http://zhoudamin.github.io/2018/10/14/shell-jiao-ben-xue-xi-yu-yan-lian/"/>
+    <id>http://zhoudamin.github.io/2018/10/14/shell-jiao-ben-xue-xi-yu-yan-lian/</id>
+    <published>2018-10-14T08:30:10.000Z</published>
+    <updated>2019-01-12T14:53:58.080Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;平时经常接触Linux的操作指导，是不是可以写个脚本一键式解决这些繁琐的操作呢？ok&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Linux" scheme="http://zhoudamin.github.io/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="http://zhoudamin.github.io/tags/Linux/"/>
+    
+  </entry>
+  
+</feed>
