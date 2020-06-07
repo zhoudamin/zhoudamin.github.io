@@ -132,5 +132,5 @@ theme: hexo-theme-matery
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
   type: git
-  repo: ssh://git@github.com/zhoudamin/darminzhou.github.com.git
+  repo: git@github.com:zhoudamin/zhoudamin.github.io.git
   branch: master
