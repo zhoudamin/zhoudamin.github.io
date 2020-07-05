@@ -5,9 +5,21 @@
     "url": "https://book.douban.com/subject/30323325/",
     "title": "豆瓣地址"
 }, {
-    "avatar": "https://img1.doubanio.com/view/subject/s/public/s32303297.jpg",
+    "avatar": "https://img11.360buyimg.com/n1/jfs/t1/40219/24/2310/280135/5cc02bdcEc11a334d/931e0935e11cffdc.jpg",
     "name": "微服务架构设计模式",
     "introduction": "微服务架构、API、通信、服务拆分、事务管理等",
     "url": "https://book.douban.com/subject/33425123/",
     "title": "豆瓣地址"
+}, {
+    "avatar": "https://img9.doubanio.com/view/subject/s/public/s33601406.jpg",
+    "name": "Spring实战（第5版 ）",
+    "introduction": "Spring 学习指南",
+    "url": "https://weread.qq.com/web/reader/1c93207071bc0df71c98a4e",
+    "title": "微信读书"
+}, {
+    "avatar": "https://img1.doubanio.com/view/subject/s/public/s33524837.jpg",
+    "name": "深入理解Spring Cloud与微服务构建 第2版",
+    "introduction": "Spring Cloud构建微服务的相关知识",
+    "url": "https://weread.qq.com/web/reader/1223205071ccfab912296c2kc81322c012c81e728d9d180",
+    "title": "微信读书"
 }]
