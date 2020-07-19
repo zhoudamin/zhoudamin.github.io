@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhoudamin.github.io/"/>
-  <updated>2020-05-13T14:12:00.308Z</updated>
+  <updated>2020-07-19T04:00:21.065Z</updated>
   <id>http://zhoudamin.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>单机与分布式令牌限流</title>
+    <link href="http://zhoudamin.github.io/2020/07/19/dan-ji-yu-fen-bu-shi-ling-pai-xian-liu/"/>
+    <id>http://zhoudamin.github.io/2020/07/19/dan-ji-yu-fen-bu-shi-ling-pai-xian-liu/</id>
+    <published>2020-07-19T03:39:45.000Z</published>
+    <updated>2020-07-19T04:00:21.065Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;限流是指对某一时间内的请求数进行限制，保持系统的可用性和稳定性。&lt;br&gt;常用的限流算法有令牌桶和漏桶，我们主要讲讲令牌桶的实现。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="开发者手册" scheme="http://zhoudamin.github.io/categories/%E5%BC%80%E5%8F%91%E8%80%85%E6%89%8B%E5%86%8C/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>findbugs clean</title>
@@ -575,27 +594,6 @@ target = 3
     
     
       <category term="AI" scheme="http://zhoudamin.github.io/tags/AI/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>shell脚本学习与演练</title>
-    <link href="http://zhoudamin.github.io/2018/10/14/shell-jiao-ben-xue-xi-yu-yan-lian/"/>
-    <id>http://zhoudamin.github.io/2018/10/14/shell-jiao-ben-xue-xi-yu-yan-lian/</id>
-    <published>2018-10-14T08:30:10.000Z</published>
-    <updated>2019-01-12T14:53:58.080Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;平时经常接触Linux的操作指导，是不是可以写个脚本一键式解决这些繁琐的操作呢？ok&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Linux" scheme="http://zhoudamin.github.io/categories/Linux/"/>
-    
-    
-      <category term="Linux" scheme="http://zhoudamin.github.io/tags/Linux/"/>
     
   </entry>
   
