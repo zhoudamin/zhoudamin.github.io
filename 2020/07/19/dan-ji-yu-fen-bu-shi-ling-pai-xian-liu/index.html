@@ -488,6 +488,11 @@
 <li>监控线程从桶里面取令牌<pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">boolean</span> <span class="token function">tryAcquire</span><span class="token punctuation">(</span><span class="token keyword">long</span> timeout<span class="token punctuation">,</span>TimeUnit unit<span class="token punctuation">)</span></code></pre>
 </li>
 </ol>
+<h2 id="分布式限流"><a href="#分布式限流" class="headerlink" title="分布式限流"></a>分布式限流</h2><p>单节点限流我们用对象存储令牌，对于分布式系统来说，采用原生的ratelimiter做到让总体限流和我们的限流值保持一致是困难的。<br>那么我们就需要采用redis做限流。<br>开发思路主要有几点：</p>
+<ol>
+<li>令牌存放到Redis，而不是对象里面。</li>
+<li>取令牌的时间由上一次消费的预期时间和需要等待的时间改为桶里面放置令牌的时间，我们不让之前的接口去预消费。</li>
+</ol>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
