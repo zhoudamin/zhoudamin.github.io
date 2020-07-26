@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhoudamin.github.io/"/>
-  <updated>2020-07-26T12:51:42.219Z</updated>
+  <updated>2020-07-26T12:56:26.814Z</updated>
   <id>http://zhoudamin.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://zhoudamin.github.io/2020/07/19/dan-ji-yu-fen-bu-shi-ling-pai-xian-liu/"/>
     <id>http://zhoudamin.github.io/2020/07/19/dan-ji-yu-fen-bu-shi-ling-pai-xian-liu/</id>
     <published>2020-07-19T03:39:45.000Z</published>
-    <updated>2020-07-26T12:51:42.219Z</updated>
+    <updated>2020-07-26T12:56:26.814Z</updated>
     
     <summary type="html">
     
@@ -32,6 +32,8 @@
     
       <category term="开发者手册" scheme="http://zhoudamin.github.io/categories/%E5%BC%80%E5%8F%91%E8%80%85%E6%89%8B%E5%86%8C/"/>
     
+    
+      <category term="应用开发" scheme="http://zhoudamin.github.io/tags/%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91/"/>
     
   </entry>
   
