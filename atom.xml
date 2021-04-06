@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.zhoudamin.com/"/>
-  <updated>2020-07-26T12:56:26.814Z</updated>
+  <updated>2021-04-06T15:18:31.630Z</updated>
   <id>http://www.zhoudamin.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>三角形最小路径和</title>
+    <link href="http://www.zhoudamin.com/2021/04/06/san-jiao-xing-zui-xiao-lu-jing-he/"/>
+    <id>http://www.zhoudamin.com/2021/04/06/san-jiao-xing-zui-xiao-lu-jing-he/</id>
+    <published>2021-04-06T15:11:47.000Z</published>
+    <updated>2021-04-06T15:18:31.630Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;给定一个三角形 triangle ，找出自顶向下的最小路径和。&lt;/p&gt;
+&lt;p&gt;每一步只能移动到下一行中相邻的结点上。相邻的结点 在这里指的是 下标 与 上一层结点下标 相同或者等于 上一层结点下标 + 1 的两个结点。也就是说，如果正位于当前行的下标 i ，那么下一步可以移动到下一行的下标 i 或 i + 1 。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="算法与数学" scheme="http://www.zhoudamin.com/categories/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E5%AD%A6/"/>
+    
+    
+      <category term="动态规划" scheme="http://www.zhoudamin.com/tags/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/"/>
+    
+  </entry>
   
   <entry>
     <title>单机与分布式令牌限流</title>
@@ -575,27 +597,6 @@ target = 3
     
     
       <category term="随想" scheme="http://www.zhoudamin.com/tags/%E9%9A%8F%E6%83%B3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>人人懂AI</title>
-    <link href="http://www.zhoudamin.com/2019/03/03/ren-ren-dong-ai/"/>
-    <id>http://www.zhoudamin.com/2019/03/03/ren-ren-dong-ai/</id>
-    <published>2019-03-03T12:57:38.000Z</published>
-    <updated>2019-03-03T14:10:43.795Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;人人懂AI入门学习！&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="算法与数学" scheme="http://www.zhoudamin.com/categories/%E7%AE%97%E6%B3%95%E4%B8%8E%E6%95%B0%E5%AD%A6/"/>
-    
-    
-      <category term="AI" scheme="http://www.zhoudamin.com/tags/AI/"/>
     
   </entry>
   
