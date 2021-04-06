@@ -13,7 +13,7 @@ avatar: /images/avatar.jpg
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://zhoudamin.github.io/
+url: http://www.zhoudamin.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -45,7 +45,7 @@ baidusitemap:
   path: baidusitemap.xml
 
 search:
-  path: search.xml
+  path: ./public/search.xml
   field: post
   format: html
   limit: 10000
@@ -58,7 +58,7 @@ leancloud_visitors:
 
 baidu_url_submit:
   count: 3 ## 比如3，代表提交最新的三个链接
-  host: zhoudamin.com ## 在百度站长平台中注册的域名
+  host: www.zhoudamin.com ## 在百度站长平台中注册的域名
   token: 3JUIGEuq1AsuTtW6 ## 请注意这是您的秘钥，请不要发布在公众仓库里!
   path: baidu_urls.txt ## 文本文档的地址，新链接会保存在此文本文档里
 
@@ -126,7 +126,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-matery
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
